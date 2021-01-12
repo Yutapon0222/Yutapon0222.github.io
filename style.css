@@ -145,4 +145,10 @@ service
 -----------------------------*/
 #service h3{
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-icon{
+    text-align: center;
+    font-size: 50px;
 }
