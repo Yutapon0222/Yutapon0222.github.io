@@ -144,6 +144,8 @@ about
 service
 -----------------------------*/
 #service h3 {
+    display: -webkit-flex;
+    display: flex;
     text-align: center;
     margin-bottom: 40px;
 }
