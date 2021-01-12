@@ -158,3 +158,54 @@ service
   #works img {
     margin-bottom: 40px;
   }
+
+/*-----------------------------
+contact
+-----------------------------*/
+.form{
+    width: 400px;
+    margin: 0 auto 40px;
+}
+
+label{
+    display: block;
+    width: 100%;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+}
+
+.form_content{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+textarea{
+    display: block;
+}
+
+
+
+/*for SmartPhone browser*/
+
+@media screen and (max-width: 768px){
+    .form{
+        width: 100%;
+    }
+}
+
+footer{
+    text-align: center;
+}

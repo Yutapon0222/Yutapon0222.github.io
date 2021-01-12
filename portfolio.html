@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/ec1318de57.js" crossorigin="anonymous"></script>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -114,6 +115,42 @@
                     </div>
                 </div>
             </section>
+
+            <section id="contact">
+                <h2 class="title">Contact</h2>
+                <div class="form">
+                    <!-- class, action, methodを変更しないでください -->
+<form class="formrun" action="https://form.run/api/v1/r/e023heqt00ykudfv82ghadiu" method="post">
+    <!-- ↓自由に要素を追加・編集することができます -->
+    <div class="form_content">
+      <label>お名前</label>
+      <input name="お名前" type="text">
+    </div>
+  
+    <div>
+      <label>メールアドレス [必須]</label>
+      <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+      <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+    </div>
+  
+    <div>
+      <label>お問い合わせ [必須]</label>
+      <textarea rows=10 name="お問い合わせ" data-formrun-required></textarea>
+      <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+    </div>
+    
+    <!-- ボット投稿をブロックするためのタグ -->
+    <div class="_formrun_gotcha">
+      <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+      <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+      <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+    </div>
+  
+    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+  </form>
+                </div>
+            </section>
+
         </div>
     </main>
 
