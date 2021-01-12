@@ -144,13 +144,17 @@ about
 service
 -----------------------------*/
 #service h3 {
-    display: flex;
     text-align: center;
     margin-bottom: 40px;
-}
-
-.service-icon{
+  }
+  
+  .service-icon {
     text-align: center;
     font-size: 50px;
     margin-bottom: 40px;
-}
+    color: #777474;
+  }
+  
+  #works img {
+    margin-bottom: 40px;
+  }
