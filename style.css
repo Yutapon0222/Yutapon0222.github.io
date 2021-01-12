@@ -43,6 +43,8 @@ li a{
     text-decoration: none;
 }
 
+/*for SmartPhone browser*/
+
 @media screen and (max-width: 768px){
     h1{
         padding: 16px;
@@ -64,6 +66,29 @@ li a{
 /*-----------------------------
 about
 -----------------------------*/
+.about_area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .about_area-img{
     width: 50%;
+}
+
+.about_area-decription{
+    width: 50%;
+    padding: 16px;
+}
+
+/*for SmartPhone browser*/
+
+@media screen and (max-width: 768px){
+    .about_area-img{
+        width: 100%;
+    }
+
+    .about_area-decription{
+        width: 100%;
+    }
 }
