@@ -1,3 +1,5 @@
+/* comment */
+
 /*-----------------------------
 common
 -----------------------------*/
@@ -69,6 +71,7 @@ li a{
 /*-----------------------------
 about
 -----------------------------*/
+/* Aboutの位置調整 */
 .about_area{
     display: flex;
     flex-wrap: wrap;
@@ -76,13 +79,53 @@ about
     margin-bottom: 40px;
 }
 
+/* 写真 */
 .about_area-img{
     width: 50%;
 }
 
+/* プロフィール */
 .about_area-decription{
     width: 50%;
     padding: 16px;
+}
+
+/* iconの位置調整 */
+.about_area-decription-icon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+/* colorcodes of companies */
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: 50px;
+}
+
+.fa-youtube{
+    color: #cd201f;
+    font-size: 50px;
+}
+
+.fa-rss{
+    color: orange;
+    font-size: 50px;
+}
+
+.fa-blog{
+    color: black;
+    font-size: 50px;
+}
+
+.fa-github{
+    color: gray;
+    font-size: 50px;
+}
+
+.fa-facebook{
+    color: #1877f2;
+    font-size: 50px;
 }
 
 /*for SmartPhone browser*/
